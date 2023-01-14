@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="VFECore.PatchOperationToggableSequence">
+    <enabled>True</enabled>
+    <mods>
+      <li>Medieval Overhaul</li>
+    </mods>
+    <label>Enable Lootable Ruinstorage:</label>
+    <operations>
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[@Name="Lootable_Storage"]</xpath>
+			<value>
+				<designationCategory>DankPyon_RuinFurniture</designationCategory>
+			</value>
+		</li>
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[@Name="Lootable_BookBuildingBase"]</xpath>
+			<value>
+				<designationCategory>DankPyon_RuinFurniture</designationCategory>
+			</value>
+		</li>
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[@Name="DankPyon_RuinedBuildingBase"]</xpath>
+			<value>
+				<designationCategory>DankPyon_RuinFurniture</designationCategory>
+			</value>
+		</li>		
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[@Name="DankPyon_SculptureBase"]</xpath>
+			<value>
+				<designationCategory>DankPyon_RuinFurniture</designationCategory>
+			</value>
+		</li>
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[@Name="DankPyon_AncientArtBase"]</xpath>
+			<value>
+				<designationCategory>DankPyon_RuinFurniture</designationCategory>
+			</value>
+		</li>
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[@Name="DankPyon_AncientReliquaryBase"]</xpath>
+			<value>
+				<designationCategory>DankPyon_RuinFurniture</designationCategory>
+			</value>
+		</li>
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[@Name="DankPyon_AncientDeadBodyBase"]</xpath>
+			<value>
+				<designationCategory>DankPyon_RuinFurniture</designationCategory>
+			</value>
+		</li>
+		
+		
+	</operations>
+  </Operation>
+</Patch>
