@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <XenotypeDef Name="EEG_Dwarf" Abstract="true">
+    <iconPath>UI/XenotypeDryad</iconPath>
+    <inheritable>true</inheritable>
+    <genes>
+      <li>StrongStomach</li>
+	  <li>AG_BloodVomit</li>
+	  <li>AG_PackMule</li>
+	  <li>MoveSpeed_Quick</li>
+	  <li>NakedSpeed</li>
+	  <li>MaxTemp_SmallDecrease</li>
+	  <li>AG_HeatSlowness</li>
+	  <li>AG_ToxResist_Vulnerability</li>
+	  <li>FireWeakness</li>
+	  <li>MeleeDamage_Strong</li>
+	  <li>Robust</li>
+	  <li>Pain_Reduced</li>
+	  <li>Sterile</li>
+	  <li>Ears_Human</li>
+	  <li>Eyes_Red</li>
+	  <li>Beard_BushyOnly</li>
+	  <li>Nose_Human</li>
+	  <li>Jaw_Baseline</li>
+	  <li>AG_HeavilyScarred</li>
+	  <li>Headbone_Human</li>
+	  <li>Body_Standard</li>
+	  <li>Skin_LightGray</li>
+	  <li>VRESaurids_Pheromones</li>
+	  <li>Hands_Human</li>
+	  <li>Unstoppable</li>
+	  <li>AptitudePoor_Artistic</li>
+	  <li>SZBodySize_09</li>
+	  <li>Greedy</li>
+	  <li>SmallBodySize</li>
+	  <li>Hair_SnowWhite</li>
+      <li>Hair_ReddishBrown</li>
+      <li>Hair_DarkReddish</li>
+      <li>Hair_DarkBlack</li>	
+    </genes>
+  </XenotypeDef>
+
+  <XenotypeDef ParentName="EEG_Dwarf" MayRequire="Ludeon.RimWorld.Biotech">
+    <defName>EEG_XenoDwarf</defName>
+    <label>dwarf</label>
+    <description>dwarf</description>
+    <descriptionShort>dwarf</descriptionShort>
+    <nameMaker>DevDesigner_WoodElves_NamerMale</nameMaker>
+    <nameMakerFemale>DevDesigner_WoodElves_NamerFemale</nameMakerFemale>
+    <chanceToUseNameMaker>1</chanceToUseNameMaker>
+  </XenotypeDef>
+
+  <!-- <XenotypeDef ParentName="DevDesigner_Elves" MayRequire="Ludeon.RimWorld.Biotech">
+    <defName>DevDesigner_XenotypeDarkElves</defName>
+    <label>dark elf</label>
+    <description>Dark elf xenotype.</description>
+    <descriptionShort>Dark elf xenotype.</descriptionShort>
+    <nameMaker>DevDesigner_DryadNamerMale</nameMaker>
+    <nameMakerFemale>DevDesigner_DryadNamerFemale</nameMakerFemale>
+    <chanceToUseNameMaker>1</chanceToUseNameMaker>
+    <genes>
+      <li>Hair_InkBlack</li>
+    </genes>
+  </XenotypeDef> -->
+
+</Defs>

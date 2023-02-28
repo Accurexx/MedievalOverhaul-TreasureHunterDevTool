@@ -13,12 +13,12 @@
 				<designationCategory>DankPyon_RuinFurniture</designationCategory>
 			</value>
 		</li>
-		<li Class="PatchOperationAdd">
+		<!--li Class="PatchOperationAdd">
 			<xpath>Defs/ThingDef[@Name="Lootable_BookBuildingBase"]</xpath>
 			<value>
 				<designationCategory>DankPyon_RuinFurniture</designationCategory>
 			</value>
-		</li>
+		</li-->
 		<li Class="PatchOperationAdd">
 			<xpath>Defs/ThingDef[@Name="DankPyon_RuinedBuildingBase"]</xpath>
 			<value>
@@ -45,6 +45,18 @@
 		</li>
 		<li Class="PatchOperationAdd">
 			<xpath>Defs/ThingDef[@Name="DankPyon_AncientDeadBodyBase"]</xpath>
+			<value>
+				<designationCategory>DankPyon_RuinFurniture</designationCategory>
+			</value>
+		</li>
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[@Name="DankPyon_SculptureBase"]</xpath>
+			<value>
+				<designationCategory>DankPyon_RuinFurniture</designationCategory>
+			</value>
+		</li>
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[@Name="DankPyon_Ancient_GrandSculptureBase"]</xpath>
 			<value>
 				<designationCategory>DankPyon_RuinFurniture</designationCategory>
 			</value>
